@@ -61,8 +61,7 @@ html {
 }
 .section {
 	flex: 1;
-	margin: 1rem;
-	padding: 1rem;
+	margin-left: 1rem;
 }
 .wrapper {
 	max-width: 50rem;
@@ -72,6 +71,7 @@ html {
 }
 .border {
 	border-top: 1px solid black;
+	width: 100%;
 }
 .border-small {
 	border-right: 1px solid black;
@@ -90,16 +90,38 @@ html {
 h1 {
 	margin-bottom: 1rem;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;	
+	font-size: 2rem;
+	text-align: center
 }
 h2 {
 	margin-bottom: 1rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 p {
-	margin: 0.5rem 0 
+	margin: 0.5rem 0;
+	font-size: 0.8rem;
 }
 footer {
 	text-align: center;
 	padding: 0.5rem;
+}
+.section-li {
+	flex: 1;
+}
+.section-li li {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	padding: 0.5rem 0 0.5rem 1rem;
+	font-size: 0.8rem;
+}
+.section-li li:first-child {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-top: 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.review-card{
+	line-height: 1.2;
 }
